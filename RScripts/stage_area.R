@@ -208,4 +208,4 @@ QB<-inun %>%
 
 #Export
 write_csv(basin,"docs/QB_watershed_elevation_area.csv")
-write_csv(basin,"docs/QB_subshed_elevation_area.csv")
+write_csv(QB,"docs/QB_subshed_elevation_area.csv")
