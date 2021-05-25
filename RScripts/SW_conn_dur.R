@@ -86,9 +86,7 @@ output<-df %>%
   arrange(WetID, waterYear)
 
 #Export results
-
-
-
+write_csv(output, "docs/duration.csv")
 
 # -----------------------------------------------------------------------------
 #Plot for funzies
